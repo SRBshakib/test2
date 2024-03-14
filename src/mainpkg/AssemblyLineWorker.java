@@ -10,4 +10,38 @@ package mainpkg;
  */
 public class AssemblyLineWorker {
     
+    private String WorkerName;
+    private int workerId;
+
+    public AssemblyLineWorker() {
+    }
+
+    public AssemblyLineWorker(String WorkerName, int workerId) {
+        this.WorkerName = WorkerName;
+        this.workerId = workerId;
+    }
+
+    public String getWorkerName() {
+        return WorkerName;
+    }
+
+    public void setWorkerName(String WorkerName) {
+        this.WorkerName = WorkerName;
+    }
+
+    public int getWorkerId() {
+        return workerId;
+    }
+
+    public void setWorkerId(int workerId) {
+        this.workerId = workerId;
+    }
+
+    @Override
+    public String toString() {
+        return "AssemblyLineWorker{" + "WorkerName=" + WorkerName + ", workerId=" + workerId + '}';
+    }
+    
+    
+    
 }
