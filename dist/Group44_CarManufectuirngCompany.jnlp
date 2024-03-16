@@ -8,11 +8,7 @@
   </information>
   <resources>
     <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
-<<<<<<< Updated upstream
-    <jar href="Group44_CarManufectuirngCompany.jar" size="13541" download="eager" />
-=======
-    <jar href="Group44_CarManufectuirngCompany.jar" size="9136" download="eager" />
->>>>>>> Stashed changes
+    <jar href="Group44_CarManufectuirngCompany.jar" size="21126" download="eager" />
   </resources>
   <jfx:javafx-desc  width="800" height="600" main-class="mainpkg.MainApplicationClass"  name="Group44_CarManufectuirngCompany" />
   <update check="always"/>
