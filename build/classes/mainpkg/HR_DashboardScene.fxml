@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Button?>
+<<<<<<< Updated upstream
 <?import javafx.scene.layout.AnchorPane?>
 
 
@@ -15,5 +16,23 @@
       <Button layoutX="61.0" layoutY="342.0" mnemonicParsing="false" onAction="#trainEmployeeButtonOnClick" text="Train Employee" />
       <Button layoutX="62.0" layoutY="216.0" mnemonicParsing="false" onAction="#createUserButtonOnClick" text="Create User" />
       <Button layoutX="63.0" layoutY="386.0" mnemonicParsing="false" onAction="#jobApplicationButtonOnClick" text="Job Application" />
+=======
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="581.0" prefWidth="815.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8.0.171" fx:controller="mainpkg.HR_DashboardSceneController">
+   <children>
+      <Button layoutX="72.0" layoutY="90.0" mnemonicParsing="false" text="Home" />
+      <Button layoutX="72.0" layoutY="178.0" mnemonicParsing="false" onAction="#noticeMgtButtonOnClick" text="Notice Board Manage" />
+      <Button layoutX="72.0" layoutY="133.0" mnemonicParsing="false" onAction="#directoryMgtButtonOnClick" text="Directory Managment" />
+      <Button layoutX="71.0" layoutY="439.0" mnemonicParsing="false" onAction="#salaryMgtButtonOnClick" text="Salary Managment" />
+      <Button layoutX="71.0" layoutY="268.0" mnemonicParsing="false" onAction="#leaveRequestButtonOnClick" text="Leave Request" />
+      <Button layoutX="71.0" layoutY="309.0" mnemonicParsing="false" onAction="#hireAndDismissButtonOnClick" text="Hire And Dismiss" />
+      <Button layoutX="71.0" layoutY="352.0" mnemonicParsing="false" onAction="#trainEmployeeButtonOnClick" text="Train Employee" />
+      <Button layoutX="72.0" layoutY="226.0" mnemonicParsing="false" onAction="#createUserButtonOnClick" text="Create User" />
+      <Button layoutX="73.0" layoutY="396.0" mnemonicParsing="false" onAction="#jobApplicationButtonOnClick" text="Job Application" />
+      <Hyperlink layoutX="434.0" layoutY="673.0" onAction="#termsAndConditionsReadOnClick" text="Terms And Conditions" />
+>>>>>>> Stashed changes
    </children>
 </AnchorPane>
